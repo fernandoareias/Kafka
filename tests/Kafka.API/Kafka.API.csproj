@@ -29,7 +29,7 @@
 
 
     <ItemGroup>
-      <ProjectReference Include="..\Kafka.MessageBus\Kafka.MessageBus.csproj" />
+      <ProjectReference Include="..\..\src\Kafka.MessageBus\Kafka.MessageBus.csproj" />
     </ItemGroup>
 
 </Project>

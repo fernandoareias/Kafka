@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Message Bus", "Message Bus", "{5AF92F16-B31D-4DB7-AE95-A907DF767FC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.MessageBus", "src\Kafka.MessageBus\Kafka.MessageBus.csproj", "{AEE2036F-F4EF-4698-8864-B2CC1AF5DD70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.MessageBus", "Kafka.MessageBus\Kafka.MessageBus.csproj", "{AEE2036F-F4EF-4698-8864-B2CC1AF5DD70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.API", "tests\Kafka.API\Kafka.API.csproj", "{6A359914-62CD-4E7C-871F-467089A3B755}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{C0772A24-0BF5-4C3F-8018-46298CBE636C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7E284748-E3B1-47EC-AD04-30770901B210}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.API", "Kafka.API\Kafka.API.csproj", "{6A359914-62CD-4E7C-871F-467089A3B755}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{67679A85-A5D2-4705-ABAD-E58F26C6E212}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,8 +30,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{AEE2036F-F4EF-4698-8864-B2CC1AF5DD70} = {5AF92F16-B31D-4DB7-AE95-A907DF767FC9}
-		{6A359914-62CD-4E7C-871F-467089A3B755} = {C0772A24-0BF5-4C3F-8018-46298CBE636C}
+		{AEE2036F-F4EF-4698-8864-B2CC1AF5DD70} = {7E284748-E3B1-47EC-AD04-30770901B210}
+		{6A359914-62CD-4E7C-871F-467089A3B755} = {67679A85-A5D2-4705-ABAD-E58F26C6E212}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ED67FED-6808-414D-9F1F-9EC3437436D0}
